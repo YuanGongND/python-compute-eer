@@ -1,5 +1,6 @@
 # python-compute-eer
 Simple Python script to compute equal error rate (EER) for machine learning model evaluation.
+
 Reference: https://stackoverflow.com/questions/28339746/equal-error-rate-in-python
 
 Code:
