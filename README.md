@@ -39,7 +39,7 @@ Sample usage:
 ```python
 from compute_eer import compute_eer
 label = [1, 1, 0, 0, 1]
-prediction = [1, 1, 0, 1, 0]
+prediction = [0.3, 0.1, 0.4, 0.8, 0.9]
 eer = compute_eer(label, prediction)
 print('The equal error rate is {:.3f}'.format(eer))
 ```
